@@ -8,8 +8,13 @@
   status = 200
 
 [[redirects]]
-from = "/search"
-to = "/.netlify/functions/search"
+from = "/artistdash"
+to = "/.netlify/functions/artistdash"
+status = 200
+
+[[redirects]]
+from = "/artistpage"
+to = "/.netlify/functions/artistpage"
 status = 200
 
 [functions]
