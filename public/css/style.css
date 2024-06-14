@@ -249,3 +249,61 @@ label {
   margin: 1.2rem;
 }
 
+.songName span {
+  margin: 1.2rem;
+}
+
+button {
+    padding: 0;
+    border: 0;
+    /* margin-top: 3px;
+    margin-bottom: 3px; */
+    background: #1d0524;
+    color: #eda634;
+    cursor: pointer;
+    outline: none;
+    width: 40px;
+    height: 40px;
+  
+}
+
+#audioContainer {
+    display: flex;
+  
+    --seek-before-width: 0%;
+    --volume-before-width: 100%;
+    --buffered-width: 0%;
+    margin: 10px 2.5% auto 2.5%;
+    width: 95%;
+    max-width: 75%;
+    background: #eda634;
+    color: #1d0524;
+    
+}
+
+#playIcon {
+    margin: 0.6rem;
+    width: 18%;
+}
+
+#muteIcon {
+  margin: 0.6rem;
+  width: 18%;
+}
+
+#volumeSlider {
+    margin: 10px 2.5%;
+    width: 58%;
+}
+
+
+#seekSlider {
+    margin: 10px 2.5%;
+    width: 58%;
+}
+
+#audioContainer span, output{
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
